@@ -1,0 +1,29 @@
+// exercício 10 lista 07
+//Faça uma função que receba dois numeros e retorne o maior deles
+
+#include <stdio.h>
+int main (){
+int comparing (int x, int y);
+
+int n1, n2, answ;{
+    printf ("Favor, digitar dois números inteiros"); //interacao com o usuario
+    scanf ("%s, %d", &n1, &n2);
+
+    answ = ("comparing n1, n2");
+    prinf ("o maior número dos inseridos é: %d\n", answ); //devolve a resposta do valor ao usuario
+    
+return 0;   
+
+}
+
+// comparação pra definir o maior 
+
+int comparing (int x, int y);{ 
+    if x > y;
+    return x;
+}else{
+    return y;
+
+    }
+
+}
