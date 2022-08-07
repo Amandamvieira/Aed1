@@ -2,28 +2,17 @@
 //Faça uma função que receba dois numeros e retorne o maior deles
 
 #include <stdio.h>
-int main (){
-int comparing (int x, int y);
+int main(){
+int v1,v2;
 
-int n1, n2, answ;{
-    printf ("Favor, digitar dois números inteiros"); //interacao com o usuario
-    scanf ("%s, %d", &n1, &n2);
+printf("valor 1 :"); scanf("%d",&v1);
+printf("valor 2 :"); scanf("%d",&v2);
 
-    answ = ("comparing n1, n2");
-    prinf ("o maior número dos inseridos é: %d\n", answ); //devolve a resposta do valor ao usuario
-    
-return 0;   
-
+if (v1>v2){
+    printf("O valor maior é %d",v1);
 }
-
-// comparação pra definir o maior 
-
-int comparing (int x, int y);{ 
-    if x > y;
-    return x;
-}else{
-    return y;
-
-    }
-
+if (v1<v2){
+    printf("o valor maior é %d", v2);
+}
+return(0);
 }
