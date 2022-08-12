@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int numb;
+
+    printf ("\nDigite um número inteiro:");
+    scanf ("%d, &numb");
+
+    if (numb%2==0){
+        printf ("é par");
+    }else{
+        printf ("é impar");
+            }
+    }  // se o resto do numero inserido, dividido por dois foi igual a 0 ele é par!
+
