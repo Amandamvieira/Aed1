@@ -1,5 +1,7 @@
 //usando ponteiros
 // duas variaveis inteiras, acha o endereço e retorna o maior endereço
+
+#include <stdio.h>
 	
 void bigSmall (int *vet, int size, int *smaller, int *bigger){
     int i;
