@@ -1,0 +1,16 @@
+// o dobro de um numero (tentando usar ponteiros)
+int main()
+{
+	
+int num; //para declara a variável
+
+printf("\n digite um número:");
+scanf("%d",&num); 
+
+while (num <= 0){    //se a pessoa for digitar um numero invalido essa mensagem vai aparecer 
+ printf("\n o numero tem que ser positivo, tente novamente:"); 
+ scanf("%d",&num);   
+}
+
+ printf("\n dobro de %d = %d", num,num*2);    //resultado
+ return 0;
