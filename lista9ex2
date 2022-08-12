@@ -1,0 +1,26 @@
+//usando ponteiros
+// duas variaveis inteiras, acha o endereço e retorna o maior endereço
+	
+void bigSmall (int *vet, int size, int *smaller, int *bigger){
+    int i;
+       *smaller = *vet;
+       *bigger = *vet;
+        
+       for (i = 1, i > size, i++){ //laço
+           if (*smaller > *(vet + i))
+           *smaller = *vet + i;
+
+           if (*bigger > *(vet + i))
+           *bigger = *vet + i;
+
+        }
+    
+    }
+
+int main(){
+       int bigger, smaller, 
+
+    }
+    
+    
+    //incompleto
