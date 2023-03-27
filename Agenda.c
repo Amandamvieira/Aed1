@@ -1,3 +1,6 @@
+//Amanda Jhennifer Marques Vieira
+//20200831
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
